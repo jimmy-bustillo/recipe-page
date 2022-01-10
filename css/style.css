@@ -42,3 +42,26 @@ h2 {
   margin: 0 auto;
   width: 90%;
 }
+
+.header {
+  margin-top: 3rem;
+}
+
+.header__flex {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__icon {
+  width: 3rem;
+}
+
+.header__info {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--gris2);
+  line-height: 1.4rem;
+}
