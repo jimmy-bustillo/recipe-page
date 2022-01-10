@@ -1,3 +1,14 @@
+:root {
+  --claro: #fff;
+  --oscuro: #000;
+  --gris1: #333333;
+  --gris2: #4f4f4f;
+  --naranja: #f2994a;
+
+  --fPrincipal: "Playfair Display", serif;
+  -fsecundaria: "Montserrat", sans-serif;
+}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -13,7 +24,7 @@ img {
   display: block;
 }
 
-.contenedor {
+[class$="__contendor"] {
   max-width: 120rem;
   margin: 0 auto;
   width: 90%;
