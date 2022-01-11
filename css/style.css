@@ -35,7 +35,7 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  font-size: 18rem;
+  font-size: 2rem;
 }
 [class$="__contenedor"] {
   max-width: 120rem;
@@ -48,20 +48,21 @@ h2 {
 }
 
 .header__flex {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 1rem;
 }
 
 .header__icon {
-  width: 3rem;
+  padding-bottom: 5.8rem;
+  width: 10rem;
 }
 
 .header__info {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-style: italic;
+  padding: 0 2rem 0 0;
   color: var(--gris2);
   line-height: 1.4rem;
 }
