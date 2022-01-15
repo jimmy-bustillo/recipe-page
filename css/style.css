@@ -47,22 +47,33 @@ h2 {
   margin-top: 3rem;
 }
 
-.header__flex {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.header__icon {
-  padding-bottom: 5.8rem;
-  width: 10rem;
-}
-
 .header__info {
   font-size: 1.6rem;
   font-style: italic;
   padding: 0 2rem 0 0;
   color: var(--gris2);
   line-height: 1.4rem;
+  display: flex;
+}
+.header__icon {
+  padding-top: 1.5rem;
+  width: 10rem;
+}
+
+.header__image {
+  border-radius: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .header__info {
+    padding-right: 20%;
+  }
+  .header__icon {
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__info {
+    padding-right: 40%;
+  }
 }
